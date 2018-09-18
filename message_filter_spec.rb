@@ -1,7 +1,7 @@
 require_relative 'message_filter' # require_relativeは相対パス
 
 describe MessageFilter do
-  before(:each) do
+  before do
     @filter = MessageFilter.new('foo')
   end
   it 'detects message with NG word' do
